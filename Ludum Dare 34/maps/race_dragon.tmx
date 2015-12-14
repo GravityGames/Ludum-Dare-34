@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="60" tilewidth="128" tileheight="128" nextobjectid="15">
+ <tileset firstgid="1" name="Grass" tilewidth="128" tileheight="128" tilecount="4">
+  <image source="../tilesets/race_tileset.png" width="256" height="256"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="15" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztlTEOACAIAwH9/5tdnAgmTGKpQ+N08QYKKiK6MxLRQzqzBujMylrRv0ys7wOCs3d/3Zl15/z+9mSR55lpJpF3OwIb9aDCGeUORpmJvOacZc29t50X3aIH0w==
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1">
+  <object id="1" name="Spawn 0" type="draygon_spawn" x="379" y="0" width="128" height="128">
+   <properties>
+    <property name="spawn_id" value="0"/>
+   </properties>
+  </object>
+  <object id="2" name="Spawn 1" type="draygon_spawn" x="527" y="0" width="128" height="128">
+   <properties>
+    <property name="spawn_id" value="1"/>
+   </properties>
+  </object>
+  <object id="5" name="Spawn 2" type="draygon_spawn" x="675" y="0" width="128" height="128">
+   <properties>
+    <property name="spawn_id" value="2"/>
+   </properties>
+  </object>
+  <object id="6" name="Spawn 3" type="draygon_spawn" x="823" y="0" width="128" height="128">
+   <properties>
+    <property name="spawn_id" value="3"/>
+   </properties>
+  </object>
+  <object id="7" name="Spawn 4" type="draygon_spawn" x="971" y="0" width="128" height="128">
+   <properties>
+    <property name="spawn_id" value="4"/>
+   </properties>
+  </object>
+  <object id="8" name="Spawn 5" type="draygon_spawn" x="1119" y="0" width="128" height="128">
+   <properties>
+    <property name="spawn_id" value="5"/>
+   </properties>
+  </object>
+  <object id="9" name="Spawn 6" type="draygon_spawn" x="1267" y="0" width="128" height="128">
+   <properties>
+    <property name="spawn_id" value="6"/>
+   </properties>
+  </object>
+  <object id="10" name="Spawn 7" type="draygon_spawn" x="1415" y="0" width="128" height="128">
+   <properties>
+    <property name="spawn_id" value="7"/>
+   </properties>
+  </object>
+  <object id="13" name="Finish" type="obj_finish_line" x="384.848" y="6912.12" width="1148.48" height="118.182"/>
+ </objectgroup>
+</map>

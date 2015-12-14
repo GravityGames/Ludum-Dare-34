@@ -5,5 +5,6 @@
 	<classpathentry kind="lib" path="C:/Users/Gary/Documents/Java Libraries/EasyOgg-0.6/EasyOgg/easyogg.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Gary/Documents/Java Libraries/EasyOgg-0.6/EasyOgg/jogg-0.0.7.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Gary/Documents/Java Libraries/EasyOgg-0.6/EasyOgg/jorbis-0.0.15.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/libtiled-java"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
